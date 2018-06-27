@@ -18,7 +18,7 @@ namespace Web.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "foobar";
-
+            
             return View();
         }
 
